@@ -99,8 +99,8 @@
                         let textHeight=parseFloat(window.getComputedStyle(textSize).height);
                         let textWidth=parseFloat(window.getComputedStyle(textSize).width);
 
-                        let sinNum=Math.sin((NumRotate.value*Math.PI)/180);
-                        let cosNum=Math.cos((NumRotate.value*Math.PI)/180);
+                        let sinNum=Math.abs(Math.sin((NumRotate.value*Math.PI)/180));
+                        let cosNum=Math.abs(Math.cos((NumRotate.value*Math.PI)/180));
 
 
                         var imgHeight=Math.ceil(sinNum*textWidth+cosNum*textHeight);

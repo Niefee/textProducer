@@ -13,7 +13,7 @@ body{
 .inputText textarea{
     display: block;
     height: 42px;
-    width: 85%;
+    width: 88%;
     margin: 0 auto;
     padding: 6px 12px;
     font-size: 13px;
@@ -67,22 +67,22 @@ body{
     margin: 20px 0;
 }
 #showText{
-    height: 200px;
-    width: 90%;
+    min-height: 200px;
+    width: 96%;
     border: 1px solid #dedede;
     margin: 0 auto;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 6px 2px;
     border-radius: 4px;
 }
 #text-item{
     display: inline-block;
     margin: 0;
     color: #ff0000;
-    padding: 0 15px;
-    line-height: 2em;
+    line-height: 1.2em;
     font-size: 36px;
 }
 .fontSizeFn,.rotate,.colorFn{
