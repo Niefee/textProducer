@@ -21,3 +21,7 @@ webpack-dev-server --progress --colors
 ```
 
 4. 浏览器打开`localhost:8080`
+
+# LICENSE
+
+[Apache License](LICENSE)
